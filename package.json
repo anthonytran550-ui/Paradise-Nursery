@@ -1,0 +1,20 @@
+{
+  "name": "paradise-nursery",
+  "version": "1.0.0",
+  "description": "Paradise Nursery is a React-based web application that allows users to browse, select, and manage a variety of indoor and outdoor plants. The goal of this project is to provide an intuitive and visually appealing shopping experience for plant enthusiasts.",
+  "homepage": "https://github.com/anthonytran550-ui/Paradise-Nursery#readme",
+  "bugs": {
+    "url": "https://github.com/anthonytran550-ui/Paradise-Nursery/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anthonytran550-ui/Paradise-Nursery.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
