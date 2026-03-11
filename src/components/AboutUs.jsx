@@ -1,44 +1,42 @@
-import React from "react";
-import "./AboutUs.css";
+import React from 'react';
+import './AboutUs.css';
 
-const AboutUs = () => {
+function AboutUs() {
   return (
-    <div className="about-container">
-      <h1>About Paradise Nursery</h1>
-      <p>
-        Welcome to <strong>Paradise Nursery</strong> — your one-stop destination
-        for beautiful, healthy, and sustainable plants. We believe that plants
-        bring life, color, and peace to every space, and our mission is to make
-        nature accessible to everyone.
-      </p>
-
-      <h2>🌿 Our Mission</h2>
-      <p>
-        At Paradise Nursery, our mission is to promote green living by providing
-        high-quality indoor and outdoor plants. We aim to inspire people to
-        create their own green paradise at home or in the workplace.
-      </p>
-
-      <h2>🌸 What We Offer</h2>
-      <ul>
-        <li>Wide variety of indoor and outdoor plants</li>
-        <li>Eco-friendly pots and gardening accessories</li>
-        <li>Expert plant care tips and guides</li>
-        <li>Affordable pricing and fast delivery</li>
-      </ul>
-
-      <h2>🌱 Our Vision</h2>
-      <p>
-        We envision a world where every home has a touch of green — a place
-        where nature and modern living coexist in harmony.
-      </p>
-
-      <p className="closing">
-        Thank you for choosing <strong>Paradise Nursery</strong>. Together, let’s
-        grow a greener tomorrow!
-      </p>
+    <div className="about-us">
+      <div className="about-us-container">
+        <h1>About Paradise Nursery</h1>
+        <section className="about-section">
+          <h2>Our Story</h2>
+          <p>
+            Paradise Nursery was founded with a simple mission: to bring the
+            joy of plants into every home. We believe that plants are more than
+            just decorations—they purify the air, reduce stress, and create a
+            connection to nature that enriches our daily lives.
+          </p>
+        </section>
+        <section className="about-section">
+          <h2>Our Mission</h2>
+          <p>
+            We are committed to providing high-quality houseplants at
+            affordable prices. Our team carefully selects each plant to ensure
+            it arrives healthy and ready to thrive in your space. Whether you
+            are a seasoned plant parent or just starting your green journey, we
+            are here to help.
+          </p>
+        </section>
+        <section className="about-section">
+          <h2>Why Choose Us</h2>
+          <ul>
+            <li>Wide selection of unique and popular houseplants</li>
+            <li>Expert care tips and support for every purchase</li>
+            <li>Sustainable packaging and eco-friendly practices</li>
+            <li>Fast and reliable delivery to your doorstep</li>
+          </ul>
+        </section>
+      </div>
     </div>
   );
-};
+}
 
 export default AboutUs;

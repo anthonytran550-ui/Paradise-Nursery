@@ -46,12 +46,18 @@ Paradise-Nursery
 ├── src
 │   ├── components
 │   │   ├── AboutUs.jsx
+│   │   ├── AboutUs.css
 │   │   ├── ProductList.jsx
+│   │   ├── ProductList.css
 │   │   ├── CartItem.jsx
+│   │   ├── CartItem.css
 │   │   └── Navbar.jsx
 │   │
 │   ├── redux
 │   │   └── CartSlice.jsx
+│   │
+│   ├── images
+│   │   └── background.jpg
 │   │
 │   ├── App.jsx
 │   ├── App.css
@@ -70,17 +76,34 @@ Paradise-Nursery
 ```bash
 git clone https://github.com/anthonytran550-ui/Paradise-Nursery
 cd Paradise-Nursery
-2. Install Dependencies
-npm install
-3. Run the Application
-npm start
-4. Build for Production
-npm run build
-👩‍💻 Author
-Anthony Tran
-Frontend Developer | React Enthusiast
-GitHub: anthonytran550-ui
+```
 
-📜 License
-This project is licensed under the MIT License.
+### 2. Install Dependencies
+```bash
+npm install
+```
+
+### 3. Run the Application
+```bash
+npm start
+```
+
+### 4. Build for Production
+```bash
+npm run build
+```
+
+---
+
+## 👩‍💻 Author
+
+**Anthony Tran**  
+Frontend Developer | React Enthusiast  
+GitHub: [anthonytran550-ui](https://github.com/anthonytran550-ui)
+
+---
+
+## 📜 License
+
+This project is licensed under the MIT License.  
 You are free to use, modify, and distribute this project with attribution.
